@@ -1,5 +1,13 @@
-import OmdbContainer from './components/OmdbContainer';
+import Header from './components/header';
+import Footer from './components/footer';
+import Navbar from './components/navbar';
 
 export default function App() {
-  return <OmdbContainer />;
+  return (
+    <div>
+      <Header/>
+      <Navbar/>
+      <Footer/>
+    </div>
+  )
 }
