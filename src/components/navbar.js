@@ -17,10 +17,10 @@ function Navbar() {
                 }}
             >
                 <div style={linkStyle}>
-                    <a href='/'>Portolfio</a>
+                    <a href='/'>About Me</a>
                 </div>
                 <div style={linkStyle}>
-                    <a href='/'>About Me</a>
+                    <a href='/'>Portolfio</a>
                 </div>
                 <div style={linkStyle}>
                     <a href='/'>Resume</a>
