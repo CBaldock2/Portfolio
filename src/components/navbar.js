@@ -1,32 +1,36 @@
 import React from 'react';
+import '../styles/Navbar.css';
 
-export default function Navbar() {
-    const linkStlye = { border: '10px black', padding: '5px' };
+function Navbar() {
+    const linkStyle = { border: '1px', padding: '5px' };
 
     return (
-        <nav classname='navbar'>
+        <nav className='navbar'>
             <section
                 style={{
                     display: 'flex',
-                    fontFamily: '',
+                    fontFamily: 'roboto',
                     flexDirection: 'row',
-                    alignItems: 'flex-start',
-                    justifyContent: 'flex-end'
+                    alignItems: 'flex-end',
+                    justifyContent: 'flex-end',
+                    marginLeft: 'auto'
                 }}
             >
-                <div style={linkStlye}>
-                    <a href='#'>Portolfio</a>
+                <div style={linkStyle}>
+                    <a href='/'>Portolfio</a>
                 </div>
-                <div style={linkStlye}>
-                    <a href='#'>About Me</a>
+                <div style={linkStyle}>
+                    <a href='/'>About Me</a>
                 </div>
-                <div style={linkStlye}>
-                    <a href='#'>Resume</a>
+                <div style={linkStyle}>
+                    <a href='/'>Resume</a>
                 </div>
-                <div style={linkStlye}>
-                    <a href='#'>Contact Me</a>
+                <div style={linkStyle}>
+                    <a href='/'>Contact Me</a>
                 </div>
             </section>
-        </nav>
-    )
+        </nav >
+    );
 }
+
+export default Navbar;
