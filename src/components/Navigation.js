@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import Header from "./Header";
-import About from "../pages/aboutMe";
-import Contact from "../pages/contact";
-import Portfolio from "../pages/portfolio";
-import Resume from "../pages/resume";
+import About from "../pages/AboutMe";
+import Contact from "../pages/Contact";
+import Portfolio from "../pages/Portfolio";
+import Resume from "../pages/Resume";
 
 export default function Navigation() {
     const [currentPage, setCurrentPage] = useState('About');
