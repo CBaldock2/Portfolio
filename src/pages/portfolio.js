@@ -1,10 +1,11 @@
 import React from "react";
+import ProjectList from "../components/Project/ProjectList";
+
 
 function Portfolio() {
     return (
         <div>
-            <h1>Portfolio</h1>
-            <p>This is straight up my portfolio.</p>
+            <ProjectList/>
         </div>
     )
 }
