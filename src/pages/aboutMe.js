@@ -1,16 +1,14 @@
 import React from "react";
+import About from '../components/AboutMe/AboutMe'
 
-const styles = {
-    backgroundColor: 'blue'
-}
 
-function About() {
+
+function AboutMe() {
     return (
-        <div style={styles}>
-            <h1>About Me</h1>
-            <p>This is where i will talk about how awesome I am.</p>
+        <div>
+            <About/>
         </div>
     )
 }
 
-export default About
+export default AboutMe
