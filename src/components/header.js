@@ -37,20 +37,20 @@ function Header({ currentPage, pageSwitch }) {
                         </li>
                         <li className='navItem'>
                             <a
-                                href='#Resume'
-                                onClick={() => pageSwitch('Resume')}
-                                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-                            >
-                                Resume
-                            </a>
-                        </li>
-                        <li className='navItem'>
-                            <a
                                 href='#Contact'
                                 onClick={() => pageSwitch('Contact')}
                                 className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                             >
                                 Contact Me
+                            </a>
+                        </li>
+                        <li className='navItem'>
+                            <a
+                                href='#Resume'
+                                onClick={() => pageSwitch('Resume')}
+                                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                            >
+                                Resume
                             </a>
                         </li>
                     </ul>

@@ -1,10 +1,10 @@
 import React from "react";
+import ContactMe from "../components/ContactMe";
 
 function Contact() {
     return (
         <div>
-            <h1>Contact Me</h1>
-            <p>This is where you can contact me.</p>
+            <ContactMe/>
         </div>
     )
 }

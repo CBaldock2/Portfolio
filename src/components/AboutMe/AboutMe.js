@@ -6,9 +6,9 @@ import { Container, Grid } from "@mui/material";
 function About() {
     return (
         <div className='aboutmebg'>
-            <Container container spacing={2}>
+            <Container>
                 <Grid item xs={8}>
-                    <item><Text/></item>
+                    <div><Text/></div>
                 </Grid>
             </Container>
         </div>
