@@ -7,17 +7,12 @@ function Header({ currentPage, pageSwitch }) {
             <h1>Chris B</h1>
             <nav className='navbar'>
                 <section
-                    style={{
-                        display: 'flex',
-                        fontFamily: 'roboto',
-                        flexDirection: 'row',
-                        alignItems: 'flex-end',
-                        justifyContent: 'flex-end',
-                        marginLeft: 'auto'
-                    }}
+                     style={{
+                         marginLeft: 'auto'
+                     }}
                 >
                     <ul className='nav navTabs'>
-                        <li className='navItem'>
+                        <li className='aboutTab'>
                             <a
                                 href='#About'
                                 onClick={() => pageSwitch('About')}
@@ -26,7 +21,7 @@ function Header({ currentPage, pageSwitch }) {
                                 About Me
                             </a>
                         </li>
-                        <li className='navItem'>
+                        <li className='portfolioTab'>
                             <a
                                 href='#portfolio'
                                 onClick={() => pageSwitch('Portfolio')}
@@ -35,7 +30,7 @@ function Header({ currentPage, pageSwitch }) {
                                 Portfolio
                             </a>
                         </li>
-                        <li className='navItem'>
+                        <li className='contactTab'>
                             <a
                                 href='#Contact'
                                 onClick={() => pageSwitch('Contact')}
@@ -44,7 +39,7 @@ function Header({ currentPage, pageSwitch }) {
                                 Contact Me
                             </a>
                         </li>
-                        <li className='navItem'>
+                        <li className='resumeTab'>
                             <a
                                 href='#Resume'
                                 onClick={() => pageSwitch('Resume')}

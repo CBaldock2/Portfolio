@@ -5,10 +5,11 @@ import { Container, Grid } from "@mui/material";
 
 function About() {
     return (
-        <div className='aboutmebg'>
+        <div className='aboutMeBG'>
             <Container>
                 <Grid item xs={8}>
-                    <div><Text/></div>
+                    <h2 className='typewriter'><Text/></h2>
+                    <p className='aboutMe'>Talk about how awesome I am</p>
                 </Grid>
             </Container>
         </div>
