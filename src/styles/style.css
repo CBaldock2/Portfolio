@@ -37,7 +37,8 @@ body {
 
 /* Gives each page the same background color */
 .aboutMeBG,
-.portfolioBG {
+.portfolioBG,
+.contactBG {
     width: 100%;
     height: auto;
     background-color: #FD8F52;
@@ -94,6 +95,37 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+/* Styles the contact page */
+.contactBG {
+    padding-top: 75px;
+}
+
+#name,
+#email,
+#message {
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+.sendBtn {
+    background-image: linear-gradient(133deg, #7D68E9, #39C6D8);
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.sendBtn:hover {
+    background-image: linear-gradient(313deg, #FEC163, #FD8F52);
+    cursor: pointer;
+}
+
+.sendBtn:active {
+    background-image: linear-gradient(133deg, #7D68E9, #39C6D8);
 }
 
 /**/

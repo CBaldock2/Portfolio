@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import '../styles/style.css';
-import { Container, TextField, Button } from "@mui/material";
+import { Container, TextField } from "@mui/material";
 
 function ContactMe() {
     const [name, setName] = useState('');
@@ -28,8 +28,8 @@ function ContactMe() {
     }
 
     return (
-        <div className='contactbg'>
-            <h1>Contact Me</h1>
+        <div className='contactBG'>
+            <h1>If you have any questions or just want to say hi, I'll try my best to get back to you!</h1>
             <Container>
                 <TextField
                     id='name'
@@ -59,7 +59,7 @@ function ContactMe() {
                     error={messageErr}
                     helperText={ messageErr ? 'A message is required' : '' }
                 />
-                <Button variant="contained" color="primary" onClick={handleSubmit}>Submit</Button>
+                <button className='sendBtn' onClick={handleSubmit}>Send!</button>
             </Container>
         </div>
     )
