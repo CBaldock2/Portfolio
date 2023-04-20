@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header {
     position: fixed;
     width: 100%;
@@ -6,6 +10,7 @@
 .nav {
     display: flex;
     justify-content: flex-end;
+    margin-top: -70px;
 }
 
 .nav a {
@@ -17,11 +22,15 @@
     list-style: none;
 }
 
+.nav-link {
+    color: #4158D0;
+}
+
 .active {
     color: #FFDCA2;
-    background-color: #4158D0;
-    border-radius: 7px;
-    padding: 20px;
+    background-color: #4159d0b4;
+    border-radius: 25px;
+    padding: 10px;
 }
 
 .aboutMeBG {
