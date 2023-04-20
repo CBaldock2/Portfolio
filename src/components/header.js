@@ -4,7 +4,7 @@ import '../styles/style.css'
 function Header({ currentPage, pageSwitch }) {
     return (
         <header className='header'>
-            <h1>Chris B</h1>
+            <h1>CB</h1>
             <nav className='navbar'>
                 <section
                      style={{
