@@ -38,7 +38,8 @@ body {
 /* Gives each page the same background color */
 .aboutMeBG,
 .portfolioBG,
-.contactBG {
+.contactBG,
+.resumeBG {
     width: 100%;
     height: auto;
     background-color: #FD8F52;
@@ -66,6 +67,7 @@ body {
 /* Styling for the portfolio page */
 .portfolioBG {
     padding-top: 75px;
+    padding-bottom: 100px;
     color: aliceblue;
 }
 
@@ -90,23 +92,21 @@ body {
     color: rgb(182, 40, 97) !important;
 }
 
-.footer {
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 /* Styles the contact page */
 .contactBG {
     padding-top: 75px;
 }
-
+ 
 #name,
 #email,
 #message {
+    z-index: 1;
+} 
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border: none !important;
     background-color: aliceblue;
-    border-radius: 50px;
+    border-radius: 50px !important;
+    color: black;
 }
 
 .sendBtn {
@@ -128,4 +128,17 @@ body {
     background-image: linear-gradient(133deg, #7D68E9, #39C6D8);
 }
 
-/**/
+/* Styles the Resume Page */
+
+.resumeBG {
+    padding-top: 50px;
+}
+
+/* Styles the footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
