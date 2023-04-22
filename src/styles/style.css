@@ -9,6 +9,11 @@ body {
     width: 100%;
 }
 
+h1 {
+    margin-left: 10px;
+    color: #4158D0;
+}
+
 .nav {
     display: flex;
     justify-content: flex-end;
@@ -92,6 +97,10 @@ body {
     color: rgb(182, 40, 97) !important;
 }
 
+.css-w66kx-MuiChip-root {
+    margin: 1px;
+}
+
 /* Styles the contact page */
 .contactBG {
     padding-top: 75px;
@@ -131,12 +140,26 @@ body {
 /* Styles the Resume Page */
 
 .resumeBG {
-    padding-top: 50px;
+    padding-top: 75px;
+}
+
+.download {
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: aliceblue;
 }
 
 .carousel-wrapper {
-    overflow: hidden;
-}  
+    font-size: 25px;
+    color: aliceblue;
+}
 
 /* Styles the footer */
 .footer {

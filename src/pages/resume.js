@@ -9,20 +9,43 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Resume() {
     return (
         <div className='resumeBG'>
-            <h3>Resume</h3>
-            <p>Download my resume.</p>
+            <p className='download'>Download my <a href='#About'>resume.</a></p>
             <div>
-                <p>Here is a list of my skills:</p>
+                <p className='skill'>Here is a list of my skills:</p>
                 <div className='carousel-wrapper'>
                     <Carousel showArrows={false} showIndicators={false} showStatus={false} infiniteLoop={true} autoPlay={true} interval={3000} transitionTime={1500} stopOnHover={true}>
-                        <div><FaHtml5 size={200} color="#e34c26" /></div>
-                        <div><FaReact size={200} color="#61dbfb" /></div>
-                        <div><FaJs size={200} color="#f0db4f" /></div>
-                        <div><FaCss3 size={200} color="#264de4" /></div>
-                        <div><FaBootstrap size={200} color="#563d7c" /></div>
-                        <div><DiMysql size={200} color="#00758f" /></div>
-                        <div><DiMongodb size={200} color="#4db33d" /></div>
-                        <div><FaCodeBranch size={200} color="#9c00a9" /></div>
+                        <div>
+                            <p>HTML5</p>
+                            <FaHtml5 size={200} color="#e34c26" />
+                        </div>
+                        <div>
+                            <p>React</p>
+                            <FaReact size={200} color="#61dbfb" />
+                        </div>
+                        <div>
+                            <p>JavaScript</p>
+                            <FaJs size={200} color="#f0db4f" />
+                        </div>
+                        <div>
+                            <p>CSS3</p>
+                            <FaCss3 size={200} color="#264de4" />
+                        </div>
+                        <div>
+                            <p>Bootstrap</p>
+                            <FaBootstrap size={200} color="#563d7c" />
+                        </div>
+                        <div>
+                            <p>MySQL</p>
+                            <DiMysql size={200} color="#00758f" />
+                        </div>
+                        <div>
+                            <p>MongoDB</p>
+                            <DiMongodb size={200} color="#4db33d" />
+                        </div>
+                        <div>
+                            <p>REST APIs</p>
+                            <FaCodeBranch size={200} color="#9c00a9" />
+                        </div>
                     </Carousel>
                 </div>
             </div>
