@@ -25,18 +25,18 @@ function ProjectList() {
                             skills={['#HTML', '#JavaScript']}
                         />
                     </Grid>
-                    <Grid item xs={6} md={6} lg={6}>
+                    <Grid item xs={12} md={6} lg={6}>
                         <ProjectCard
                             className='projectCard'
                             imgPath={ParkingBuddy}
                             title='Parking Buddy'
                             description='Describe PB'
-                            deployed='parking-buddy.com'
+                            deployed='https://serene-cove-30368.herokuapp.com/'
                             ghLink='https://github.com/SMU-CodingBootcamp-Project2/ParkingBuddy'
-                            skills={['#SQL', '#REST API', '#JavaScript']}
+                            skills={['#SQL', '#REST APIs', '#JavaScript']}
                         />
                     </Grid>
-                    <Grid item xs={6} md={6} lg={6}>
+                    <Grid item xs={12} md={6} lg={6}>
                         <ProjectCard
                             className='projectCard'
                             imgPath={WeatherDashboard}
@@ -44,7 +44,7 @@ function ProjectList() {
                             description='This is the description for Weather Dashboard'
                             deployed='https://cbaldock2.github.io/Weather-Dashboard/'
                             ghLink='https://github.com/CBaldock2/Weather-Dashboard'
-                            skills={['#REST APIS', '#JavaScript']}
+                            skills={['#REST APIs', '#JavaScript']}
                         />
                     </Grid>
                 </Grid>
