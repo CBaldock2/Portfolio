@@ -29,7 +29,7 @@ function ContactMe() {
 
     return (
         <div className='contactBG'>
-            <h1>If you have any questions or just want to say hi, I'll try my best to get back to you!</h1>
+            <h2>If you have any questions or just want to say hi, I'll try my best to get back to you!</h2>
             <Container>
                 <TextField
                     id='name'
