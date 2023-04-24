@@ -9,7 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Resume() {
     return (
         <div className='resumeBG'>
-            <p className='download'>Download my <a href='#About'>resume.</a></p>
+            <p className='download'>Download my <a href='https://drive.google.com/file/d/1zJOdza-EzkAdA5PfTOHzKEJc4XNiACps/view?usp=share_link'>resume.</a></p>
             <div>
                 <p className='skill'>Here is a list of my skills:</p>
                 <div className='carousel-wrapper'>

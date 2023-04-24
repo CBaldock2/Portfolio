@@ -11,7 +11,7 @@ body {
 
 h1 {
     margin-left: 10px;
-    color: #4158D0;
+    color: #4159d070;
 }
 
 .nav {
@@ -104,6 +104,7 @@ h1 {
 /* Styles the contact page */
 .contactBG {
     padding-top: 75px;
+    color: #4159d0;
 }
  
 #name,
