@@ -8,11 +8,13 @@ function Header({ currentPage, pageSwitch }) {
             <nav className='navbar'>
                 <section
                      style={{
-                         marginLeft: 'auto'
+                         marginLeft: 'auto',
+                         display: 'flex',
+                         justifyContent: 'flex-end',
                      }}
                 >
-                    <ul className='nav navTabs'>
-                        <li className='aboutTab'>
+                    <ul className='nav navTabs' >
+                        <li className='aboutTab' >
                             <a
                                 href='#About'
                                 onClick={() => pageSwitch('About')}
@@ -21,7 +23,7 @@ function Header({ currentPage, pageSwitch }) {
                                 About Me
                             </a>
                         </li>
-                        <li className='portfolioTab'>
+                        <li className='portfolioTab' >
                             <a
                                 href='#portfolio'
                                 onClick={() => pageSwitch('Portfolio')}
@@ -30,7 +32,7 @@ function Header({ currentPage, pageSwitch }) {
                                 Portfolio
                             </a>
                         </li>
-                        <li className='contactTab'>
+                        <li className='contactTab' >
                             <a
                                 href='#Contact'
                                 onClick={() => pageSwitch('Contact')}
@@ -39,7 +41,7 @@ function Header({ currentPage, pageSwitch }) {
                                 Contact Me
                             </a>
                         </li>
-                        <li className='resumeTab'>
+                        <li className='resumeTab' >
                             <a
                                 href='#Resume'
                                 onClick={() => pageSwitch('Resume')}

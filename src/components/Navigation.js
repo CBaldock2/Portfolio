@@ -27,7 +27,7 @@ export default function Navigation() {
     const pageSwitch = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div className="test">
             <Header currentPage={currentPage} pageSwitch={pageSwitch} />
             <main>
                 {renderPage()}
