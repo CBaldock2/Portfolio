@@ -13,7 +13,9 @@ function ProjectCard(props) {
             />
             <CardContent>
                 <Typography>
-                    {props.title}
+                    <b style={{fontSize: '175%'}}>
+                        {props.title}
+                    </b>
                 </Typography>
                 <Typography>
                     {props.description}
