@@ -28,8 +28,6 @@ function ContactMe() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        console.log(sendEmail)
-
         emailjs
             .sendForm(
                 'service_uxohnik',
